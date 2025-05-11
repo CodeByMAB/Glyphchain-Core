@@ -1,0 +1,40 @@
+{
+  "project": "glyphchain-cli",
+  "language": "python",
+  "style": {
+    "format": "pep8",
+    "prefer_compact_imports": true,
+    "quote_style": "double",
+    "spacing": {
+      "between_functions": 2,
+      "around_top_level_blocks": 2
+    }
+  },
+  "prompt": {
+    "ask_before_adding_dependencies": true,
+    "generate_comments": "always",
+    "docstrings": "full"
+  },
+  "modules": {
+    "builtin": ["argparse", "os", "json", "hashlib", "datetime", "zipfile"],
+    "optional": ["opentimestamps", "qrcode", "colorama"]
+  },
+  "functions": {
+    "prefer_named_functions": true,
+    "max_args": 5,
+    "max_lines": 60
+  },
+  "testing": {
+    "framework": "unittest",
+    "mock_dependencies": true,
+    "test_coverage": "partial"
+  },
+  "output": {
+    "file_structure": {
+      "glyphchain_cli.py": "main CLI logic",
+      "glyphchain_core.py": "glyph and echo classes",
+      "glyphchain_utils.py": "timestamping, hashing, export helpers",
+      "tests/": "unit tests"
+    }
+  }
+}

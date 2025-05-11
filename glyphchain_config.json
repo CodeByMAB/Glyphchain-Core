@@ -1,0 +1,12 @@
+{
+    "node_id": "DEFAULT-NODE",
+    "default_output_dir": "glyphs",
+    "default_echo_log": "glyph_echo_log.json",
+    "default_creator": "Unnamed Archivist",
+    "enable_ots": true,
+    "timestamp_binary": "ots",
+    "broadcast_services": {
+        "enable_nostr": false,
+        "enable_web_export": false
+    }
+}

@@ -1,0 +1,7 @@
+# Required core libraries
+opentimestamps-client==0.4.2  # For timestamping glyphs via Bitcoin
+colorama==0.4.6               # Optional: color output in CLI
+qrcode==7.4.2                 # Optional: generate QR codes for glyph URLs
+
+# Optional future enhancements
+Flask==2.3.2                  # Optional: if building a web dashboard later
