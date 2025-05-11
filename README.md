@@ -79,3 +79,11 @@ python -m unittest discover tests
 ## 🌐 Mission
 
 Preserve meaning beyond the moment. Create glyphs that outlast platforms and anchor memory in symbolic form.
+
+## 📄 License
+
+This project is licensed under the Creative Commons Attribution 4.0 International License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
