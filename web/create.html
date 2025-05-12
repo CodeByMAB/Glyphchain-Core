@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Glyph ∴</title>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: sans-serif; padding: 2em; background: #121212; color: #f5f5f5; }
+    input, textarea { width: 100%; padding: 0.5em; margin-bottom: 1em; }
+    label { font-weight: bold; display: block; margin-top: 1em; }
+    button { padding: 1em; background: #ffaa00; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>∴ Glyphchain Entry Form</h1>
+  <form action="save_glyph.php" method="post">
+    <label for="glyph_id">Glyph ID</label>
+    <input type="text" name="glyph_id" required>
+
+    <label for="name">Glyph Name</label>
+    <input type="text" name="name" required>
+
+    <label for="creator">Creator</label>
+    <input type="text" name="creator" required>
+
+    <label for="concepts">Core Concepts (comma-separated)</label>
+    <input type="text" name="concepts" required>
+
+    <label for="dedication">Dedication</label>
+    <textarea name="dedication" rows="2"></textarea>
+
+    <label for="closing">Closing Lines (comma-separated)</label>
+    <input type="text" name="closing">
+
+    <button type="submit">Save Glyph</button>
+  </form>
+</body>
+</html>
