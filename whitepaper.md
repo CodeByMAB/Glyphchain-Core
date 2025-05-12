@@ -117,7 +117,7 @@ Collaborators welcome via Nostr, GitHub, or sovereign node rendezvous.
 
 For questions, demonstration requests, or integration partnerships, contact:
 * Email: MABCode@protonmail.com
-* Project updates will be posted at: [`https://glyph.8ase0f0ps.com`](https://glyph.8ase0f0ps.com) (soon)
+* Project updates will be posted at: [`https://glyphchain.8ase0f0ps.com`](https://glyphchain.8ase0f0ps.com) (soon)
 * `npub1z6uxwev8c8wauc9j8vnjq5gj5n2lpnnm6pq57e68d40w59gz4umqzntvyx` (Nostr)
 * GitHub repo will be announced when published
 
